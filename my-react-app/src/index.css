@@ -1,0 +1,58 @@
+.attendance-container {
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #f4f6f8;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.attendance-container h1 {
+  color: #263238;
+  margin-bottom: 30px;
+}
+
+.student-list {
+  max-width: 700px;
+  margin: auto;
+}
+
+.student-card {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h2 {
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.present {
+  color: green;
+  font-weight: bold;
+  margin: 0;
+}
+
+.absent {
+  color: red;
+  font-weight: bold;
+  margin: 0;
+}
+
+.student-card button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 7px;
+  background-color: #263238;
+  color: white;
+  cursor: pointer;
+}
+
+.student-card button:hover {
+  background-color: #455a64;
+}
